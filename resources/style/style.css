@@ -1,0 +1,73 @@
+QWidget {
+    background-color: #dedfeb;
+}
+QWidget[name = 'window'] {
+    background-color: #69db69;
+}
+QPushButton:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(195, 226, 57);
+}
+QTabBar::tab{
+    width: 50px;
+    /* background-color: blueviolet; */
+    /* border-color: #69db69; */
+    /* border-radius: 5px; */
+}
+/* QLabel[name = 'image']{
+    border-image: url(./resources/images/cover.png);
+} */
+QLabel{
+    font-family: "YouYuan";
+    font-size: 18px;
+    font-weight: bold;
+}
+QToolButton {
+    font-family: "YouYuan";
+    font-size: 16px;
+    font-weight: bold;
+}
+QTextEdit {
+    font-family: "SimHei";
+    font-size: 16px;
+}
+QLineEdit {
+    border-width: 5px;
+    border-color: rgb(66, 75, 27);
+    font-family: "SimHei";
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3;
+}
+QPushButton {
+    background: #69db69;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(202, 223, 108);
+    height: 30px;
+    width: 90px;
+    border-radius: 5;
+    font-family: "STHupo";
+    font-size: 20px;
+}
+QToolButton {
+    font-weight: bold;
+    height: 20px;
+    width: 80px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5;
+    border-color: rgb(202, 223, 108);
+}
+
+QToolButton:hover {
+    font-weight: bold;
+    height: 20px;
+    width: 80px;
+    color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5;
+    border-color: rgb(202, 223, 108);
+    background-color: rgb(202, 223, 108);
+}
